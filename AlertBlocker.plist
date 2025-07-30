@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" 
-  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
     <key>Filter</key>
     <dict>
         <key>Bundles</key>
         <array>
-            <string>com.himalaya.bilibili</string>
+            <string>tv.danmaku.bili</string>         <!-- 哔哩哔哩主站 App -->
+            <string>tv.danmaku.bilianime</string>     <!-- 哔哩哔哩漫画 App -->
+            <string>tv.danmaku.bililive</string>      <!-- 哔哩哔哩直播 App -->
+            <string>com.bilibili.iphone</string>      <!-- 哔哩哔哩国际版（旧版） -->
+            <string>com.bilibili.app.in</string>      <!-- 哔哩哔哩 Google Play 海外版 -->
         </array>
     </dict>
 </dict>
