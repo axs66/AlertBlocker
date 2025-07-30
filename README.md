@@ -1,23 +1,27 @@
-# AlertBlocker
+# AlertBlocker for Bilibili
 
-一个简单实用的越狱插件，自动隐藏所有系统级弹窗窗口（`UIWindowLevelAlert`），可用于屏蔽如越狱检测提示、系统警告、广告弹窗等干扰内容。
+一个专为 Bilibili App 打造的越狱插件，用于自动隐藏 B 站内的系统级弹窗（`UIWindowLevelAlert`），如启动页提示、登录检测弹窗、青少年模式提醒、越狱风险提示等。
+
+## 📦 插件信息
+
+- 插件名称：**AlertBlocker**
+- 适用 App：**哔哩哔哩（Bilibili）**
+- 包名（Package ID）：
+
+> 请将 `yourname` 替换为你的源名或开发者 ID。
+
 
 ## ✨ 插件功能
 
-- ✅ 自动隐藏所有 `UIWindowLevelAlert` 级别的弹窗窗口
-- ✅ 支持系统级弹窗（如蜂窝数据关闭提示、SIM卡弹窗等）
-- ✅ 可扩展支持特定 App（如微信、邮件）弹窗拦截
-- ✅ 无界面、无设置，安装即生效，占用极低资源
+- ✅ 自动隐藏所有 `UIWindowLevelAlert` 弹窗
+- ✅ 安装即生效，无需配置
+- ✅ 精准注入 Bilibili，不影响系统其他应用
+- ✅ 支持 rootless 和 rootful 越狱环境
 
-## 📍 默认注入目标（Filter）
+## 📍 注入目标（Filter）
 
-插件默认注入以下进程：
+插件仅注入以下 Bilibili 相关 App：
 
-| Bundle ID                | App 名称         |
-|--------------------------|------------------|
-| com.apple.springboard    | SpringBoard（桌面与状态栏）|
-| com.apple.Preferences    | 设置 App          |
-| com.apple.mobilemail     | 邮件 App          |
-| com.tencent.xin          | 微信（如需拦截越狱弹窗）|
+```xml
+com.himalaya.bilibili
 
-你可以根据实际需要编辑 `AlertBlocker.plist` 来更改注入目标。
