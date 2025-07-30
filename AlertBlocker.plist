@@ -7,10 +7,7 @@
     <dict>
         <key>Bundles</key>
         <array>
-            <string>com.apple.springboard</string>
-            <string>com.apple.Preferences</string>
-            <string>com.apple.mobilemail</string>
-            <string>com.tencent.xin</string> <!-- 注入微信（如需） -->
+            <string>com.himalaya.bilibili</string>
         </array>
     </dict>
 </dict>
