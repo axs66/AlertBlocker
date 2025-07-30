@@ -1,0 +1,9 @@
+Package: com.axs.alertblocker
+Name: Alert Blocker
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Hide all alert-level windows.
+Maintainer: Axs
+Author: Axs
+Section: Tweaks
+Depends: mobilesubstrate
